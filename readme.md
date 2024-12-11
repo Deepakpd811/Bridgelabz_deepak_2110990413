@@ -1,15 +1,89 @@
 Topics Covered on 2024-12-9:
-1. Initialize Repository and Check Status
-2. File Operations
-3. Branch Management
-4. Remote Repository Setup
-5. Push and Pull Operations
+
+Initialize Repository and Check Status
+
+git init Initialize a new Git repository.
+
+git status Check the status of the repository.
+
+File Operations
+
+echo "hi" >> readme.md Add text to readme.md.
+
+touch readme.md Create an empty file readme.md.
+
+Branch Management
+
+git branch -M main Rename the default branch master to main.
+
+git branch List all branches.
+
+git checkout -b <branchname> Create a new branch and switch to it.
+
+git checkout <branchname> Switch to an existing branch.
+
+git branch -d <branchname> Delete a branch.
+
+git branch -D <branchname> Force delete a branch.
+
+Delete locally:
+git branch -d orphanBranch
+
+Delete from remote:
+git push origin --delete orphanBranch
+
+git branch -a
+Remote Repository Setup
+
+git remote add origin <url> Link the repository to a remote URL.
+
+git remote -v View the list of remote URLs.
+
+Push and Pull Operations
+
+git push -u origin main Push the main branch to remote for the first time.
+
+git push -u origin <branchname> Push a specific branch to remote.
+
+git pull Fetch and merge changes from the remote branch.
+
+
+
+
+
 
 Topics Covered on 2024-12-10:
-1. Merging Branches
-2. Cloning Repositories
-3. File Viewing and Editing(nano, cat command)
-4. Differences and Comparisons
-5. Git Stash
+Merging Branches
 
+git merge <branchname> Merge a branch into the current branch.
+
+git checkout main Switch back to the main branch after merging.
+
+Cloning Repositories
+
+git clone <url> Clone a repository.
+
+git clone --branch <branchname> <url> Clone a specific branch.
+
+File Viewing and Editing (nano, cat command)
+
+nano <filename> Edit a file using the Nano editor.
+
+cat <filename> Display the contents of a file.
+
+Differences and Comparisons
+
+git diff origin/main Compare the local branch with the remote main branch.
+
+Git Stash
+
+git stash Save changes temporarily and clean the working directory.
+
+git stash list View a list of all stashes.
+
+git stash apply Reapply the latest stash without removing it from the stash list.
+
+git stash pop Reapply and remove the latest stash.
+
+git stash drop Delete a specific stash.
 
