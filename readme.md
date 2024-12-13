@@ -87,3 +87,42 @@ git stash pop Reapply and remove the latest stash.
 
 git stash drop Delete a specific stash.
 
+
+Topics Covered on 2024-12-11:
+git rebase
+orphan branch
+
+Topics Covered on 2024-12-12:
+javascript basic 
+Data types - primitive and non-primitive
+operators
+functions
+String methods:-
+    String length
+    String charAt()
+    String slice()
+    String substring()
+    String substr()
+    String Templates
+    String toUpperCase()
+    String toLowerCase()
+    String concat()
+    String trim()
+    String replace()
+    String replaceAll()
+    String split()
+
+Topics Covered on 2024-12-12:
+javascript basic 
+number - toString() , Number.parseInt()
+loops - for ,while , forEach
+Array and its methods :-
+        map
+        fillter
+        reduce
+        flatmap
+        splice
+        slice
+        flat
+    
+
