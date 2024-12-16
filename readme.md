@@ -45,7 +45,7 @@ git push -u origin main Push the main branch to remote for the first time.
 
 git push -u origin <branchname> Push a specific branch to remote.
 
-git pull Fetch and merge changes from the remote branch.
+git pull =  Fetch + merge    changes from the remote branch.
 
 
 
