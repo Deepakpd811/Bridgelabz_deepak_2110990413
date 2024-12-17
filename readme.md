@@ -26,6 +26,9 @@ git branch -d <branchname> Delete a branch.
 
 git branch -D <branchname> Force delete a branch.
 
+git checkout --orphan new-branch
+rm -rf .
+
 Delete locally:
 git branch -d orphanBranch
 
@@ -41,14 +44,11 @@ git remote -v View the list of remote URLs.
 
 Push and Pull Operations
 
-git push -u origin main Push the main branch to remote for the first time.
+git push -u origin main         Push the main branch to remote for the first time.
 
 git push -u origin <branchname> Push a specific branch to remote.
 
 git pull Fetch and merge changes from the remote branch.
-
-
-
 
 
 
@@ -120,7 +120,10 @@ Array methods :- map, fillter, and reduce and its example
 basic of object, destructuring of object
 classes and constructor with example
 
-       
-      
-    
+Topics Covered on 2024-12-17:
+map weakmap
+set weakset
+OOP
 
+       
+    
