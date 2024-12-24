@@ -131,7 +131,7 @@ alert, prompt, confirm
 Event handlers 
 MouseEvents, KeyEvents, windowEvent
 
-**Topics Covered on 2024-12-20:**
+**Topics Covered on 2024-12-23:**
 function and its types
 : IIFE,Nfe
 new function ,call/apply,
@@ -141,4 +141,9 @@ Rest parameters and spread
 syntax, 
 Variable scope, 
 closure
+
+**Topics Covered on 2024-12-24:**
+decorators
+Arrays easy question
+implementation of linked list
 
