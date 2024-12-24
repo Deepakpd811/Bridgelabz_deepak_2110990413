@@ -130,3 +130,15 @@ Interaction:
 alert, prompt, confirm
 Event handlers 
 MouseEvents, KeyEvents, windowEvent
+
+**Topics Covered on 2024-12-20:**
+function and its types
+: IIFE,Nfe
+new function ,call/apply,
+Function binding.
+this keyword
+Rest parameters and spread
+syntax, 
+Variable scope, 
+closure
+
