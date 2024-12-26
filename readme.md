@@ -147,3 +147,6 @@ decorators
 Arrays easy question
 implementation of linked list
 
+**Topics Covered on 2024-12-25:**
+DSA
+30 question for javascript basic
