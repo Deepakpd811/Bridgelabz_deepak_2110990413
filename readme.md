@@ -151,14 +151,14 @@ implementation of linked list
 DSA
 1-30 question for javascript basic
 
-**Topics Covered on 2024-1-27:**
-30-53
-implementation of stack
+Topics Covered on 2024-12-26:
+ DSA 1-30 question for javascript basic
 
-**Topics Covered on 2024-1-6:**
-Objects, Classes, Object references and copying,
- Garbage collection, Object methods, "this",
- Constructor, operator "new", Optional chaining '?.',
- Object to primitive conversion, Property flags and
- descriptors, Property getters and setters
- promise basic
+Topics Covered on 2024-1-27: 
+30-53 basic question of javascript, 
+implementation of stack,
+easy question on stack
+
+Topics Covered on 2024-1-6: 
+implementation of queue ,
+implementation of Bst bst traversal dfs,bfs
