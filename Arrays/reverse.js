@@ -14,7 +14,7 @@ const reverse = (arr)=>{
     return arr;
 }
 
-Array.prototype.reverseArray  = function(){ // polyfills
+Array.prototype.reverseArray  = function(){      // polyfills
     return reverse(this)
 }
 
