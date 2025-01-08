@@ -95,3 +95,8 @@ ll.insertAt(10,2)
 console.log(ll.print())
 ll.delete(2)
 console.log(ll.print())
+
+
+
+
+module.exports = LinkledList;
