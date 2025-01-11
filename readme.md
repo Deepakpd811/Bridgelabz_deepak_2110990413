@@ -1,169 +1,260 @@
-**Topics Covered on 2024-12-9:**
+# Topics Covered  
 
-Initialize Repository and Check Status
+## **2024-12-09**
 
-git init Initialize a new Git repository.
+### **Initialize Repository and Check Status**
+- `git init`  
+  Initialize a new Git repository.
+- `git status`  
+  Check the status of the repository.
 
-git status Check the status of the repository.
+### **File Operations**
+- `echo "hi" >> readme.md`  
+  Add text to `readme.md`.
+- `touch readme.md`  
+  Create an empty file `readme.md`.
 
-File Operations
+### **Branch Management**
+- `git branch -M main`  
+  Rename the default branch `master` to `main`.
+- `git branch`  
+  List all branches.
+- `git checkout -b <branchname>`  
+  Create a new branch and switch to it.
+- `git checkout <branchname>`  
+  Switch to an existing branch.
+- `git branch -d <branchname>`  
+  Delete a branch.
+- `git branch -D <branchname>`  
+  Force delete a branch.
+- `git checkout --orphan new-branch`  
+  Create an orphan branch.  
+- `rm -rf .`  
+  Clean the working directory.
+- **Delete Branches:**
+  - Locally: `git branch -d orphanBranch`
+  - Remotely: `git push origin --delete orphanBranch`
+- `git branch -a`  
+  View all branches, including remote ones.
 
-echo "hi" >> readme.md Add text to readme.md.
+### **Remote Repository Setup**
+- `git remote add origin <url>`  
+  Link the repository to a remote URL.
+- `git remote -v`  
+  View the list of remote URLs.
 
-touch readme.md Create an empty file readme.md.
+### **Push and Pull Operations**
+- `git push -u origin main`  
+  Push the `main` branch to the remote repository for the first time.
+- `git push -u origin <branchname>`  
+  Push a specific branch to the remote repository.
+- `git pull`  
+  Fetch and merge changes from the remote branch.
 
-Branch Management
+---
 
-git branch -M main Rename the default branch master to main.
+## **2024-12-10**
 
-git branch List all branches.
+### **Merging Branches**
+- `git merge <branchname>`  
+  Merge a branch into the current branch.
+- `git checkout main`  
+  Switch back to the `main` branch after merging.
 
-git checkout -b <branchname> Create a new branch and switch to it.
+### **Cloning Repositories**
+- `git clone <url>`  
+  Clone a repository.
+- `git clone --branch <branchname> <url>`  
+  Clone a specific branch.
 
-git checkout <branchname> Switch to an existing branch.
+### **File Viewing and Editing**
+- `nano <filename>`  
+  Edit a file using the Nano editor.
+- `cat <filename>`  
+  Display the contents of a file.
 
-git branch -d <branchname> Delete a branch.
+### **Differences and Comparisons**
+- `git diff origin/main`  
+  Compare the local branch with the remote `main` branch.
 
-git branch -D <branchname> Force delete a branch.
+### **Git Stash**
+- `git stash`  
+  Save changes temporarily and clean the working directory.
+- `git stash list`  
+  View a list of all stashes.
+- `git stash apply`  
+  Reapply the latest stash without removing it from the stash list.
+- `git stash pop`  
+  Reapply and remove the latest stash.
+- `git stash drop`  
+  Delete a specific stash.
 
-git checkout --orphan new-branch
-rm -rf .
+---
 
-Delete locally:
-git branch -d orphanBranch
+## **2024-12-11**
+- `git rebase`
+- Orphan branch creation and management.
 
-Delete from remote:
-git push origin --delete orphanBranch
+---
 
-git branch -a
-Remote Repository Setup
+## **2024-12-12**
 
-git remote add origin <url> Link the repository to a remote URL.
+### **JavaScript Basics**
+#### **Data Types**
+- Primitive and Non-Primitive.
 
-git remote -v View the list of remote URLs.
+#### **Operators**
+- Arithmetic, Logical, and Comparison.
 
-Push and Pull Operations
+#### **Functions**
+- Basics of function declaration and usage.
 
-git push -u origin main Push the main branch to remote for the first time.
+#### **String Methods**
+- `String.length`
+- `String.charAt()`
+- `String.slice()`
+- `String.substring()`
+- `String.substr()`
+- `String templates`
+- `String.toUpperCase()`
+- `String.toLowerCase()`
+- `String.concat()`
+- `String.trim()`
+- `String.replace()`
+- `String.replaceAll()`
+- `String.split()`
 
-git push -u origin <branchname> Push a specific branch to remote.
+#### **Numbers**
+- `toString()`
+- `Number.parseInt()`
 
-git pull Fetch and merge changes from the remote branch.
+#### **Loops**
+- `for`, `while`, `forEach`.
 
-**Topics Covered on 2024-12-10:**
-Merging Branches
+#### **Array Methods**
+- `map`, `filter`, `flatMap`, `splice`, `slice`, `flat`.
 
-git merge <branchname> Merge a branch into the current branch.
+---
 
-git checkout main Switch back to the main branch after merging.
+## **2024-12-16**
+- Array methods: `map`, `filter`, `reduce` with examples.
+- Basics of objects.
+- Object destructuring.
+- Classes and constructors with examples.
 
-Cloning Repositories
+---
 
-git clone <url> Clone a repository.
+## **2024-12-17**
+- `Map` and `WeakMap`.
+- `Set` and `WeakSet`.
+- Object-Oriented Programming (OOP).
 
-git clone --branch <branchname> <url> Clone a specific branch.
+---
 
-File Viewing and Editing (nano, cat command)
+## **2024-12-18**
+- Node.js.
+- NPM.
+- OOP.
+- Event Loop in JavaScript.
 
-nano <filename> Edit a file using the Nano editor.
+---
 
-cat <filename> Display the contents of a file.
+## **2024-12-20**
 
-Differences and Comparisons
+### **User Interaction**
+- `alert`, `prompt`, `confirm`.
 
-git diff origin/main Compare the local branch with the remote main branch.
+### **Event Handlers**
+- `MouseEvents`
+- `KeyEvents`
+- `WindowEvents`
 
-Git Stash
+---
 
-git stash Save changes temporarily and clean the working directory.
+## **2024-12-23**
 
-git stash list View a list of all stashes.
+### **Function Types**
+- **IIFE** (Immediately Invoked Function Expression)
+- **NFE** (Named Function Expression)
+- `new Function`
+- `call/apply` methods.
+- Function binding (`bind`).
 
-git stash apply Reapply the latest stash without removing it from the stash list.
+### **Core Concepts**
+- `this` keyword.
+- Rest parameters and spread syntax.
+- Variable scope.
+- Closures.
 
-git stash pop Reapply and remove the latest stash.
+---
 
-git stash drop Delete a specific stash.
+## **2024-12-24**
+- JavaScript Decorators.
+- Easy Array questions.
+- Linked List implementation.
 
-**Topics Covered on 2024-12-11:**
-git rebase
-orphan branch
+---
 
-**Topics Covered on 2024-12-12:**
-javascript basic
-Data types - primitive and non-primitive
-operators
-functions
-String methods:-
-String length,String charAt(),String slice(),String substring(),String substr(),String Templates
-String toUpperCase(),String toLowerCase(),String concat(),String trim(),String replace(),String replaceAll()
-String split()
+## **2024-12-26**
+- DSA: Solving 1–30 JavaScript basic questions.
 
-**Topics Covered on 2024-12-12:**
-javascript basic
-number - toString() , Number.parseInt()
-loops - for ,while , forEach
-Array and its methods :-
-map
-fillter
-flatmap
-splice
-slice
-flat
+---
 
-**Topics Covered on 2024-12-16:**
-javascript basic
-Array methods :- map, fillter, and reduce and its example
-basic of object, destructuring of object
-classes and constructor with example
+## **2024-12-27**
+- DSA: Solving questions 30–53 for JavaScript.
+- Stack implementation and basic questions.
 
-**Topics Covered on 2024-12-17:**
-map weakmap
-set weakset
-OOP
+---
 
-**Topics Covered on 2024-12-18:**
-NodeJS, NPM, OOP, Event Loop,
+## **2024-01-06**
+- Queue implementation.
+- Binary Search Tree (BST) implementation.
+- BST traversals: DFS, BFS.
 
-**Topics Covered on 2024-12-20:**
-Interaction:
-alert, prompt, confirm
-Event handlers 
-MouseEvents, KeyEvents, windowEvent
+---
 
-**Topics Covered on 2024-12-23:**
-function and its types
-: IIFE,Nfe
-new function ,call/apply,
-Function binding.
-this keyword
-Rest parameters and spread
-syntax, 
-Variable scope, 
-closure
+## **2024-01-07**
 
-**Topics Covered on 2024-12-24:**
-decorators
-Arrays easy question
-implementation of linked list
+### **Object-Oriented JavaScript**
+- Objects and classes.
+- Object references and copying.
+- Garbage collection.
+- Object methods and `this`.
+- Constructor and operator usage.
 
-**Topics Covered on 2024-12-26:**
-DSA
-1-30 question for javascript basic
+### **Asynchronous JavaScript**
+- Callback hell and promisification.
+- Promises.
+- `async/await`.
 
-**Topics Covered on 2024-1-27:**
-30-53 basic question of javascript
-implementation of stack
-easy question on stack
+---
 
-**Topics Covered on 2024-1-6:**
-implementation of queue
-implementation of Bst
-bst traversal dfs,bfs 
+## **2024-01-08**
 
-**Topics Covered on 2024-1-7:**
-Objects, Classes, Object references and copying,
- Garbage collection, Object methods, "this",
- Constructor, operator 
- callback_hell , promisefication, promise
- async await
+### **Advanced JavaScript**
+- Optional chaining (`?.`).
+- Object-to-primitive conversion:
+  - `toValue()`
+  - `toString()`
+- Property flags (`value`, `write`, `enumerable`, `configurable`) and descriptors.
+- Property getters and setters.
+
+### **Prototypes and Inheritance**
+- Prototypes and inheritance.
+- Native prototypes.
+- Objects without `__proto__`.
+- Class inheritance and extending built-in classes.
+
+---
+
+## **2024-01-09**
+
+### **Promises**
+- Promise chaining.
+- Promise API.
+- Error handling with promises.
+- Custom errors and extending `Error`.
+- Promisification.
+- `async/await`.
+
+---
