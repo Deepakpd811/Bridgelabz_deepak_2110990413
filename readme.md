@@ -206,14 +206,14 @@
 
 ---
 
-## **2024-01-06**
+## **2025-01-06**
 - Queue implementation.
 - Binary Search Tree (BST) implementation.
 - BST traversals: DFS, BFS.
 
 ---
 
-## **2024-01-07**
+## **2025-01-07**
 
 ### **Object-Oriented JavaScript**
 - Objects and classes.
@@ -229,7 +229,7 @@
 
 ---
 
-## **2024-01-08**
+## **2025-01-08**
 
 ### **Advanced JavaScript**
 - Optional chaining (`?.`).
@@ -247,7 +247,7 @@
 
 ---
 
-## **2024-01-09**
+## **2025-01-09**
 
 ### **Promises**
 - Promise chaining.
