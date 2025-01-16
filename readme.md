@@ -265,15 +265,21 @@
 - Special tyes - any ,unknown.
 - Tuples, Array, object.
 - Function, optional paramater, default parameter, union.
-- Alias.
 - Inteface, abstract class.
 
 ---
 ## **2025-01-14**
 
-### **TypeScripe and Es**
+### **TypeScript and Es**
 - OPPS in TypeScript .
 - Acess modifiers public,private,protected
 - classes object, Encapsulation, inheritance, polymorphsim, abstraction.
 - ES6,ES7,ES8,ES9,ES10 feature in ts essential one
+---
+## **2025-01-15**
+
+### **TypeScript **
+- More on Data Types
+- ATM machine problem
+- Alias vs interface
 ---
