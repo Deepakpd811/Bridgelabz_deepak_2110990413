@@ -1,6 +1,5 @@
 
-// Use any when you know you will be dealing with values of different types and you don't need type safety or want to disable type checking temporarily (e.g., working with third-party libraries that have no type definitions).
-
+// The any type turns off type checking for a variable. It can hold any value, and operations on it are not type-checked.
 // let num:any;
 // num = 10;
 // num = true
@@ -8,8 +7,7 @@
 // console.log(num) // true
 // console.log(num.length) // undifined
 
-// Use unknown when you are dealing with dynamic values but want to maintain type safety. You must narrow down the type before performing operations, making your code safer and preventing potential runtime errors.
-
+// The unknown type also allows a variable to hold any value, but it enforces type safety by requiring type checks before operations or assignments.
 
 let num:unknown;
 num = 10;
