@@ -283,3 +283,17 @@
 - ATM machine problem
 - Alias vs interface
 ---
+
+## **2025-01-16**
+
+### **TypeScript **
+- Revesion
+- solve logical question on js ans ts
+---
+
+## **2025-01-17**
+
+### **TypeScript **
+- Solve AddressBook Problem using Typescript and OOPS
+- decorators
+---
