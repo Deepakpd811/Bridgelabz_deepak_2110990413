@@ -297,3 +297,39 @@
 - Solve AddressBook Problem using Typescript and OOPS
 - decorators
 ---
+
+## **2025-01-20**
+
+### **Mongob **
+- db.find()
+- db.findOne()
+- db.find({name:"name"})
+---
+
+**projection**
+- db.find({population:{$gt:2000000} , {name:1,_id:0}})
+----
+
+**update**
+- db.user.updateOne({name:"deepak"}, {$set: {name:"deepak prasad"}})
+- db.user.updateMany({}, {status:false})
+
+**delete**
+- deleteOne({name:"ritick"})
+- deleteMany()
+
+**Query Operators**
+- $eq: equal
+- $ne: not equal
+- $gt: greater than
+- $lt : less than
+- $lte : less than equal
+- $in : value matched in array
+
+---
+**Logical operator**
+- $and
+- $or
+- $nor
+- $not
+
