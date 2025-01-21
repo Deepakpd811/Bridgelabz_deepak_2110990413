@@ -301,6 +301,23 @@
 ## **2025-01-20**
 
 ### **Mongob **
+
+**Create a dataBasse**
+- use <DatabaseName>
+- use person
+---
+
+**Create a collection**
+- db.creataCollection("user")
+- db.user.insertOne(object)
+---
+
+**Create a document**
+- db.user.inertOne({name:"Deepak, email:"prasaddeapak896@gmail.com", contact:"7005209785" })
+- db.user.insertMany([{name:"Deepak, email:"prasaddeapak896@gmail.com", contact:"7005209785" },
+                        {name:"rohit, email:"rohit896@gmail.com", contact:"7005209785" }])
+---
+
 - db.find()
 - db.findOne()
 - db.find({name:"name"})
@@ -333,3 +350,15 @@
 - $nor
 - $not
 
+---
+
+## **2025-01-21**
+
+### **Mongob Agregation pipeline **
+
+- operators
+- $match, $group, $project, $sort, $limit,&skip,$unwind, lookup , $count, $text, $merge
+- normilazation 
+- indexing/ search 
+
+---
